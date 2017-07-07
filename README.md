@@ -15,9 +15,9 @@ It provides:
 
 `R` functions are directly applicable. The `C` implementation of the Bayesian GMRF models requires compilation. Change to the `C` subdirectory and run the following code in the command line (tested under Linux only)
 
-`R CMD SHLIB utilities/*.c` (compiles all utility functions)  
-`R CMD SHLIB mainGibbs_GMRF.c utilities/*.o` (compiles main for GMRF)  
-`R CMD SHLIB mainGibbs_HyperparamsFixed.c utilities/*.o` (compiles main for SparseGMRF) 
+1. `R CMD SHLIB utilities/*.c` (compiles all utility functions)  
+2. `R CMD SHLIB mainGibbs_GMRF.c utilities/*.o` (compiles main for GMRF)  
+3. `R CMD SHLIB mainGibbs_HyperparamsFixed.c utilities/*.o` (compiles main for SparseGMRF) 
 
 Make sure that the `Makevars` file is in the same directory as the main files. 
 
