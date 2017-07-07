@@ -2,9 +2,9 @@
 
 This repository contains the code supplement for the paper
 
-###The Impact of Model Assumptions in Scalar-on-Image Regression
-*Clara Happ, Sonja Greven, Volker Schmid (Department of Statistics, LMU Munich, Munich, Germany)*  
-*for the Alzheimer's Disease Neuroimaging Initiative.*
+### The Impact of Model Assumptions in Scalar-on-Image Regression     
+* Clara Happ, Sonja Greven, Volker Schmid (Department of Statistics, LMU Munich, Munich, Germany) *  
+* for the Alzheimer's Disease Neuroimaging Initiative. *
 
 It provides:  
  *  Usage examples for all models used in the paper       
