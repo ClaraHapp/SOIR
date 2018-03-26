@@ -8,9 +8,12 @@ This repository contains the code supplement for the paper
 A preprint is available on [arXiv](https://arxiv.org/abs/1707.02233).
 
 It provides:  
- *  Usage examples for all models used in the paper       
+ *  Usage examples for all models used in the paper    
  * `R` implementations of methods, if not already available  
  * `R` functions for all measures developed in the paper  
+ * ADNI roster IDs (RID) of the subjects used in the simulation settings (sample size [250](./Simulation/IDs_Sim_250.csv) and [500](./Simulation/IDs_Sim_500.csv)) and in the [application](./Simulation/IDs_Application.csv) (sample size 754).   
+ * Code for generating the beta-images for the simulation, together with csv-files containing the final images ([bumpy](./Simulation/bumpyBeta.csv), [pca](./Simulation/pcaBeta.csv), [smooth](./Simulation/smoothBeta.csv), [sparse](./Simulation/sparseBeta.csv))
+
   
 ## Usage ##
 
